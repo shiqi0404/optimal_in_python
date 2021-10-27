@@ -21,6 +21,7 @@ Software:       PyCharm
 -------------------------------------------------
 """
 from gurobipy import *
+
 m = Model("LP model")
 
 # 定义变量
@@ -34,12 +35,12 @@ x7 = m.addVar(lb=0, ub=150, vtype=GRB.INTEGER, name='x7')
 x8 = m.addVar(lb=0, ub=150, vtype=GRB.INTEGER, name='x8')
 
 # 添加约束
-m.addConstr(2*x1 + x2 + x3 + x4 >= 100)
-m.addConstr(2*2 + x3 + 3*x5 + 2*x6 + x7 >= 150)
-m.addConstr(x1 + x3 + 3*x4 + 2*x6 + 3*x7 + 5*x8 >= 100)
+m.addConstr(2 * x1 + x2 + x3 + x4 >= 100)
+m.addConstr(2 * 2 + x3 + 3 * x5 + 2 * x6 + x7 >= 150)
+m.addConstr(x1 + x3 + 3 * x4 + 2 * x6 + 3 * x7 + 5 * x8 >= 100)
 
 # 添加目标函数值
-m.setObjective(5*x1 + 6*x2 + 23*x3 + 5*x4 + 24*x5 + 6*x6 +23*x7 + 5*x8, GRB.MINIMIZE)
+m.setObjective(5 * x1 + 6 * x2 + 23 * x3 + 5 * x4 + 24 * x5 + 6 * x6 + 23 * x7 + 5 * x8, GRB.MINIMIZE)
 
 # 求解
 m.optimize()

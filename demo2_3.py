@@ -62,3 +62,4 @@ print('取出最后一个元素是: ', ta[-1])   # 输出：c
 # 元组迭代
 for v in ta:
     print(v)    # 依次输出 a b c
+
