@@ -15,8 +15,8 @@ Software:       PyCharm
 -------------------------------------------------
 """
 # Python 集合：set
-sa = set(['a', 'b', 'c', 'd'])
-sb = set(['b', 'c', 'f'])
+sa = {'a', 'b', 'c', 'd'}
+sb = {'b', 'c', 'f'}
 
 print('sa集合为: ', sa)
 print('sb集合为: ', sb)
