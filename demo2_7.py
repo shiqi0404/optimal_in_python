@@ -24,14 +24,15 @@ def catch_mice():
     print('抓老鼠')
 
 
+def eat_mice():
+    """吃老鼠"""
+    print('吃老鼠')
+
+
 class cat:
     def __init__(self, color, weight):  # 第一个参数是self，不可改变 !! 这里 init 不是 int 且 前后两个下划线
         self.color = color
         self.weight = weight
-
-    def eat_mice(self):
-        """吃老鼠"""
-        print('吃老鼠')
 
 
 # 类的实例化
@@ -39,7 +40,7 @@ my_cat = cat('yellow', 10)
 
 # 调用类的方法
 catch_mice()  # 输出 抓老鼠
-my_cat.eat_mice()  # 输出 吃老鼠
+eat_mice()  # 输出 吃老鼠
 
 # 查看类的属性
 print(my_cat.color)  # 输出 yellow
