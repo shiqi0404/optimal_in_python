@@ -16,29 +16,31 @@ Software:       PyCharm
                    2020-11-26:
 -------------------------------------------------
 """
+
+
 # 定义一个类
-class cat():
-    def __init__(self, color, weight):   # 第一个参数是self，不可改变 !! 这里 init 不是 int 且 前后两个下划线
+def catch_mice():
+    """"抓老鼠的方法"""
+    print('抓老鼠')
+
+
+class cat:
+    def __init__(self, color, weight):  # 第一个参数是self，不可改变 !! 这里 init 不是 int 且 前后两个下划线
         self.color = color
         self.weight = weight
-
-    def catch_mice(self):
-        """"抓老鼠的方法"""
-        print('抓老鼠')
 
     def eat_mice(self):
         """吃老鼠"""
         print('吃老鼠')
 
 
-
 # 类的实例化
 my_cat = cat('yellow', 10)
 
 # 调用类的方法
-my_cat.catch_mice()     # 输出 抓老鼠
-my_cat.eat_mice()       # 输出 吃老鼠
+catch_mice()  # 输出 抓老鼠
+my_cat.eat_mice()  # 输出 吃老鼠
 
 # 查看类的属性
-print(my_cat.color)     # 输出 yellow
-print(my_cat.weight)    # 输出 10
+print(my_cat.color)  # 输出 yellow
+print(my_cat.weight)  # 输出 10
