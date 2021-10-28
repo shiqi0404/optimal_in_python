@@ -26,3 +26,34 @@ data = {
     '日期': ['2019/3/23', '2019/3/24', '2019/3/25', '2019/3/26', '2019/3/27']
 }
 df = pd.DataFrame(data)
+
+
+# apply
+# 1. 姓名 每个元素都添加“xm”
+def myfuc(x):
+    return 'xm' + x
+
+
+df['姓名'] = df['姓名'].apply(myfuc)
+print(df)
+
+
+# 2. 成绩小于90的，改为90
+def myfunc1(x):
+    if x < 90:
+        return 90
+    else:
+        return x
+
+
+df['语文成绩'] = df['语文成绩'].apply(myfunc1)
+print(df)
+
+
+# 3. 分组使用 apply
+def myfunc2(series):
+    return series.max()
+
+
+df = df.groupby(by=['班级'], as_index=False)['语文成绩'].apply(myfunc2)
+print(df)
