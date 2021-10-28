@@ -2,7 +2,7 @@
 """
 -------------------------------------------------
 Project Name:   optimal_in_python
-File Name：     demo2_13
+File Name：     demo5_numpy solver
 Description :   Numpy 求解 线性代数
 
                 x - 2*y + z = 0

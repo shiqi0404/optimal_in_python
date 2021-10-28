@@ -2,7 +2,7 @@
 """
 -------------------------------------------------
 Project Name:   optimal_in_python
-File Name：     demo2_10
+File Name：     demo2_numpy random
 Description :   Numpy 的随机数
 Author :        Steven.zou
 E-mail:         zoushiqi0404@gmail.com

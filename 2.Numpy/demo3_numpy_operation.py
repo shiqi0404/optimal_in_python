@@ -2,7 +2,7 @@
 """
 -------------------------------------------------
 Project Name:   optimal_in_python
-File Name：     demo2_11
+File Name：     demo3_numpy operation
 Description :   Numpy 的数组运算
                 主要是 Numpy 中的 array 运算操作
                 +   矩阵对应的元素相加

@@ -2,7 +2,7 @@
 """
 -------------------------------------------------
 Project Name:   optimal_in_python
-File Name：     demo2_12
+File Name：     demo4_numpy matrix
 Description :   Numpy 的矩阵运算
                 利用 array 数组来模拟矩阵运算
 Author :        Steven.zou
