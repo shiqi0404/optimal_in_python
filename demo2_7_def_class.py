@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 """
 -------------------------------------------------
-Project Name:   gurobi 
+Project Name:   optimal_in_python
 File Name：     demo2_7
 Description :   类与实例
                 类 是面向对象编程很重要的概念。 类 由 属性 和 方法 组成。

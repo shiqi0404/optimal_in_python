@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 """
 -------------------------------------------------
-Project Name:   gurobi 
-File Name：     demo_operation
+Project Name:   optimal_in_python
+File Name：     demo2_0
 Description :   基础数据类型、基础四则运算、逻辑运算
 Author :        Steven.zou
 E-mail:         zoushiqi0404@gmail.com

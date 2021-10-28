@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 """
 -------------------------------------------------
-Project Name:   gurobi 
+Project Name:   optimal_in_python
 File Name：     demo2_4
 Description :   Python 字典
                 字典是除列表外使用最广泛的数据结构，常用来存储数据映射。

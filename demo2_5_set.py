@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 """
 -------------------------------------------------
-Project Name:   gurobi 
+Project Name:   optimal_in_python
 File Name：     demo2_5
 Description :   Python 集合
                 是一个无序的不重复元素序列，集合操作包含 交集、并集、差集等。
