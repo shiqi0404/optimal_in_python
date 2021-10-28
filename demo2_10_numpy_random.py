@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 """
 -------------------------------------------------
-Project Name:   gurobi 
+Project Name:   optimal_in_python
 File Name：     demo2_10
 Description :   Numpy 的随机数
 Author :        Steven.zou

@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 """
 -------------------------------------------------
-Project Name:   gurobi 
+Project Name:   optimal_in_python
 File Name：     demo2_11
 Description :   Numpy 的数组运算
                 主要是 Numpy 中的 array 运算操作

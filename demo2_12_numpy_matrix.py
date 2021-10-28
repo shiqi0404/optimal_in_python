@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 """
 -------------------------------------------------
-Project Name:   gurobi 
+Project Name:   optimal_in_python
 File Name：     demo2_12
 Description :   Numpy 的矩阵运算
                 利用 array 数组来模拟矩阵运算

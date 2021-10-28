@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 """
 -------------------------------------------------
-Project Name:   gurobi 
+Project Name:   optimal_in_python
 File Name：     demo2_9
 Description :   Numpy 基础
                 1.Numpy 的基础数据结构是指数组(array)， 包括一维数组、二维数组、三维数组、高维数组等。
