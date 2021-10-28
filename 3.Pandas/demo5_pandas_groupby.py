@@ -15,7 +15,6 @@ Software:       PyCharm
 """
 
 import pandas as pd
-import numpy as np
 
 data = {
     '学号': ['x1', 'x2', 'x3', 'x4', 'x5'],
