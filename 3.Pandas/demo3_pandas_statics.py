@@ -2,8 +2,20 @@
 """
 -------------------------------------------------
 Project Name:   optimal_in_python 
-File Name：     demo2_16_pandas_statics
-Description :   
+File Name：     demo3_pandas_statics
+Description :   Pandas 中基础统计函数
+            count           计数
+            min max         最小 最大
+            argmin argmax   最小 最大的索引位置
+            idxmin idxmax   最小 最大值的索引值
+            quantile        计算样本分位数
+            sum mean        求和 均值
+            meidam          中位数
+            var cov         方差 标准差
+            cumsum          累计和
+            cummins cummax  累计最小 最大
+            cumprod         累计积
+            diff            一阶差分
 Author :        Steven.zou
 E-mail:         zoushiqi0404@gmail.com
 Date：          2021-10-28 12:25
@@ -80,17 +92,3 @@ df_cov = df[['身高', '语文成绩']].cov()
 # 身高    146.8  -4.5
 # 语文成绩   -4.5  34.5
 
-"""
-count           计数
-min max         最小 最大
-argmin argmax   最小 最大的索引位置
-idxmin idxmax   最小 最大值的索引值
-quantile        计算样本分位数
-sum mean        求和 均值
-meidam          中位数
-var cov         方差 标准差
-cumsum          累计和
-cummins cummax  累计最小 最大
-cumprod         累计积
-diff            一阶差分
-"""

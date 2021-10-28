@@ -2,7 +2,7 @@
 """
 -------------------------------------------------
 Project Name:   optimal_in_python 
-File Name：     demo2_15
+File Name：     demo2_pandas_DataFrame
 Description :   Pandas 基础
                 DataFrame 是数据分析中使用最多的数据结构，其大部分数据也是以表格形式存储的。
                 (Python 的 Pandas 库有 DataFrame，R 语言中也有类似 DataFrame 的数据结构。)

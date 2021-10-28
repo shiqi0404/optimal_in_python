@@ -2,7 +2,7 @@
 """
 -------------------------------------------------
 Project Name:   optimal_in_python 
-File Name：     demo2_14
+File Name：     demo1_pandas_Series
 Description :   Pandas 基础
 
                 Numpy 是科学计算的核心，Pandas 是 Python 数据分析事实上的标准；
