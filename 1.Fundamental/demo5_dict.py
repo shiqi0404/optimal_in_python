@@ -2,7 +2,7 @@
 """
 -------------------------------------------------
 Project Name:   optimal_in_python
-File Name：     demo2_4
+File Name：     demo5_dict
 Description :   Python 字典
                 字典是除列表外使用最广泛的数据结构，常用来存储数据映射。
                 字典由 key (键) 和 value (值) 组成，其中 key 在一个字典中是不会重复的。

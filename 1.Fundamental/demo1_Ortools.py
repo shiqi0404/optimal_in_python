@@ -2,7 +2,7 @@
 """
 -------------------------------------------------
 Project Name:   optimal_in_python
-File Name：     demo2_1
+File Name：     demo1_Ortools
 Description :   Ortools 求解线性规划模型
 
                 min Z = 5*x1 + 6*x2 + 23*x3 + 5*x4 + 24*x5 + 6*x6 +23*x7 + 5*x8

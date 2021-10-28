@@ -2,7 +2,7 @@
 """
 -------------------------------------------------
 Project Name:   optimal_in_python
-File Name：     demo2_7
+File Name：     demo8_def class
 Description :   类与实例
                 类 是面向对象编程很重要的概念。 类 由 属性 和 方法 组成。
                 例 小猫 是一个 类， 其属性包含 毛色、体重，方法包括 抓老鼠。

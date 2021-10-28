@@ -2,7 +2,7 @@
 """
 -------------------------------------------------
 Project Name:   optimal_in_python
-File Name：     demo2_8
+File Name：     demo9_for
 Description :   迭代和循环
                 迭代可以看作是循环的高效版本
 Author :        Steven.zou

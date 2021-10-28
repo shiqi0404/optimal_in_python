@@ -2,7 +2,7 @@
 """
 -------------------------------------------------
 Project Name:   optimal_in_python
-File Name：     demo2_3
+File Name：     demo4_list and tuple
 Description :   Python 列表 元组
 Author :        Steven.zou
 E-mail:         zoushiqi0404@gmail.com

@@ -2,7 +2,7 @@
 """
 -------------------------------------------------
 Project Name:   optimal_in_python
-File Name：     demo2_5
+File Name：     demo6_set
 Description :   Python 集合
                 是一个无序的不重复元素序列，集合操作包含 交集、并集、差集等。
 Author :        Steven.zou

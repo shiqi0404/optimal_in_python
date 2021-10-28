@@ -2,7 +2,7 @@
 """
 -------------------------------------------------
 Project Name:   optimal_in_python
-File Name：     demo2_0
+File Name：     demo3_operation
 Description :   基础数据类型、基础四则运算、逻辑运算
 Author :        Steven.zou
 E-mail:         zoushiqi0404@gmail.com
