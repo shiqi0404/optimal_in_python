@@ -22,7 +22,7 @@ Software:       PyCharm
                    2020/11/29:
 -------------------------------------------------
 """
-# DataFrame 表格数据 1
+# DataFrame 表格数据
 import pandas as pd
 
 df1 = pd.DataFrame(data={
